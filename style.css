@@ -1,5 +1,5 @@
 body {
-  background-color: #F7ECE1;
+  background-color: #EBEBEB;
   font-family: 'Montserrat', sans-serif;
   color: #503D51;
   font-size: 20px;
@@ -7,30 +7,30 @@ body {
 }
 
 h1, h2 {
-  color: #2D232E;
+  color: #120D31;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
 }
 
 a {
-  color: #EACBAE;
+  color: #54A077;
 }
 
 a:hover {
-  color: #DEAC7D;
+  color: #6CB28A;
 }
 
-button {
-  background-color: #FFFF;
-  color: #C4745A;
-  border: 2px solid #C06E52EA;
-  border-radius: 10px;
+.btn-green {
+  background-color: #54A077;
+  color: #FFFFFF;
+  border-radius: 8px;
   padding: 20px 40px;
+  text-decoration: none;
 }
 
-button:hover {
-  background-color: #C06E52EA;
-  color: #FFFF;
+.btn-green:hover {
+  background-color: #6CB28A;
+  color: #FFFFFF;
 }
 
 .container {
@@ -38,14 +38,17 @@ button:hover {
   margin: 0 auto;
 }
 
-.card {
+.bio-card {
   background: #FFFF;
   border: 1px;
   border-radius: 5px;
   padding: 30px;
   margin: 15px;
   padding-bottom: 200px;
-  box-shadow: 2px 2px #F7EBEC;
+}
+
+.text-section {
+  padding-bottom: 30px;
 }
 
 .text-center {
