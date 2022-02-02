@@ -1,62 +1,57 @@
 body {
-  background-color: #EBEBEB;
-  font-family: 'Montserrat', sans-serif;
+  background-color: #F7ECE1;
   color: #503D51;
-  font-size: 20px;
+  /* font-size: 20px; */
   line-height: 20px;
 }
 
-h1, h2 {
-  color: #120D31;
+h1, h2, h3 {
+  color: #2D232E;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
 }
 
-a {
-  color: #54A077;
-}
-
-a:hover {
-  color: #6CB28A;
-}
-
-.btn-green {
-  background-color: #54A077;
-  color: #FFFFFF;
-  border-radius: 8px;
-  padding: 20px 40px;
-  text-decoration: none;
-}
-
-.btn-green:hover {
-  background-color: #6CB28A;
-  color: #FFFFFF;
-}
-
-.container {
-  width: 700px;
-  margin: 0 auto;
-}
-
-.bio-card {
+.profile-content {
   background: #FFFF;
-  border: 1px;
   border-radius: 5px;
   padding: 30px;
   margin: 15px;
-  padding-bottom: 200px;
+  width: 300px;
+  height: 450px;
 }
 
-.text-section {
-  padding-bottom: 30px;
+.greater-container {
+
 }
 
-.text-center {
-  text-align: center;
+
+a {
+  color: #EACBAE;
+}
+
+a:hover {
+  color: #DEAC7D;
 }
 
 .img-circle {
   border-radius: 50%;
+}
+
+button {
+  background-color: #FFFF;
+  color: #C4745A;
+  border: 2px solid #C06E52EA;
+  border-radius: 10px;
+  padding: 20px 40px;
+}
+
+button:hover {
+  background-color: #C06E52EA;
+  color: #FFFF;
+}
+
+.text-center {
+  text-align: center;
 }
 
 ul {
